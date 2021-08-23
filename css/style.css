@@ -1,0 +1,228 @@
+/* font-family: -apple-system */
+/* font-family: PingFang TC */
+/* font-family: "黑體-繁" */
+/* font-family: "Heiti TC" */
+/* font-family: "蘋果儷中黑" */
+/* font-family: "微軟正黑體" */
+/* font-family: "Microsoft JhengHei" */
+/* font-family: BlinkMacSystemFont */
+/* font-family: "Helvetica Neue" */
+/* font-family: sans-serif */
+/* font-family: SF Pro Text,sans-serif */
+/**
+ * http://applemusic.tumblr.com/
+ * https://jsfiddle.net/xq56dmrh/
+ */
+
+/** Ultra Light */
+/* @font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+} */
+.container {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.footer {
+    /* height: auto; 不需要寫出這一行 */
+    background-color: #415165;
+}
+.name {
+    width: 274px;
+    height: 190px;
+    font-size: 80px;
+    line-height: 95px;
+    margin-bottom: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.JoanneChen {
+    width: 324px;
+    height: 324px;
+    margin-bottom: 48px;
+}
+.hexschool {
+    width: 90px;
+    height: 67px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.simtree {
+    width: 72px;
+    height: 73px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.footerimg {
+    width: 48px;
+    height: 48px;
+}
+.topic {
+    margin-bottom: 72px;
+}
+.skills {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.box {
+    height: auto;
+    background-color: #415165;
+    padding-top: 24px;
+    margin-bottom: 72px;
+}
+.box2 {
+    margin-left: 24px;
+    border-left: 1px solid #96A9C4;
+}
+.box3 {
+    width: 1200px;
+    height: auto;
+    background-color: #415165;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.title {
+    display: flex;
+    margin-bottom: 8px;
+}
+.title2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.content1 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align-last: left;
+    font-family: PingFang TC, sans-serif;
+    font-weight: light;
+    margin-bottom: 24px;
+}
+.content2 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align-last: left;
+    font-family: PingFang TC, sans-serif;
+    font-weight: light;
+}
+.content3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-family: SF Pro Text, sans-serif;
+    font-weight: bold;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+.content4 {
+    width: 642px;
+    height: 150px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: PingFang TC, sans-serif;
+    font-weight: lighter;
+}
+.content5 {
+    width: 400px;
+    height: 28px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: PingFang TC, sans-serif;
+    font-weight: lighter;
+}
+.content6 {
+    width: 192px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 48px;
+}
+.font1 {
+    font-size: 32px;
+    line-height: 48px;
+    text-align-last: left;
+    font-family: PingFang TC;
+    font-weight: bold;
+    margin-right: 16px;
+}
+.font2 {
+    display: flex;
+    color: #a40404;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+    text-align-last: left;
+    font-family: SF Pro Text, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+.font3 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 45px;
+    text-align-last: left;
+    margin-right: 16px;
+    font-family: PingFang TC, sans-serif;
+    font-weight: bold;
+}
+.font4 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 29px;
+    text-align-last: left;
+    font-family: PingFang TC, sans-serif;
+    font-weight: 500;
+}
+.font5 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 36px;
+    border-left: solid   #96A9C4;
+    border-width: 1px;
+    text-align-last: left;
+    font-family: C64 User Mono;
+    margin-left: 492px;
+    margin-bottom: 52px;
+    padding-left: 24px;
+}
+.font6 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 36px;
+    text-align-last: center;
+    font-family: SF Pro Text, sans-serif;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.stock1 {
+    border: 0;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 48px;
+}
+.stock2 {
+    border: 0;
+    height: 1px;
+    background-color: #000;
+    margin-bottom: 16px;
+}
+.stock3 {
+    border: 0;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 102px 40px 102px;
+}
+.stock4 {
+    border: 0;
+    height: 1px;
+    background-color: #fff;
+    width: 1200px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 32px;
+}
